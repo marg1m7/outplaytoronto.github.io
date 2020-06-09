@@ -1,0 +1,73 @@
+.navbar-brand{
+	font-family: impact; 
+}
+
+.navbar .navbar-toggler-icon {
+background-image: url('https://mdbootstrap.com/img/svg/hamburger6.svg?color=000');
+}
+
+.carousel-inner img{
+	width: 100%;
+}
+
+div#slide1{
+    width:100%;
+    margin:0 auto;
+  }
+
+.fa-instagram {
+	background: #125688;
+	color: white;
+	padding: 10px;
+	text-decoration: none;
+	border-radius: 50%;
+}
+
+footer ul li a{
+	color: white;
+}
+
+#OOTD .jumbotron{
+	background-image: url(../img/25.jpg);
+	background-position: 50% 50%;
+	background-attachment: fixed;
+}
+#OOTD .container img{
+	transition-duration: 0.5s;
+}
+#OOTD .container img:hover{
+	transform:scale(1.5);
+}
+
+#Pet .jumbotron-fluid video{
+	position: absolute;
+	top: 0;
+	width: 100%;
+  	height: 100%;
+  	object-fit: cover;
+  	object-position: 0 30%;
+  	opacity: 0.5;
+
+}
+
+#Pet .jumbotron-fluid{
+	position: relative;
+	background-image: none;
+	background-size: cover;
+}
+
+#Pet .jumbotron-fluid .container{
+	position: relative;
+}
+
+#Travel .jumbotron{
+	background-image: url(../img/28.jpg);
+  	background-size: cover;
+  	background-blend-mode: soft-light;
+}
+
+#Contact .jumbotron{
+	background-image: url(../img/27.jpg);
+	background-position: 50% 50%;
+	background-attachment: fixed;
+}
